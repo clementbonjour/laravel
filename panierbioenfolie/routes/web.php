@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/', 'FirstController@index');
+Route::get('/about', 'FirstController@about');
+Route::get('/recette', 'FirstController@recette');
+Route::get('/abonnements', 'FirstController@abonnements');
+Route::get('/moncompte', 'FirstController@moncompte');
+Route::get('/contact', 'FirstController@contact');
+Route::get('/article/{id}','FirstController@article')->where('id','[0-9]+');
