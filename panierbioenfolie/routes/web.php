@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,3 +23,9 @@ Route::get('/abonnements', 'FirstController@abonnements');
 Route::get('/moncompte', 'FirstController@moncompte');
 Route::get('/contact', 'FirstController@contact');
 Route::get('/article/{id}','FirstController@article')->where('id','[0-9]+');
+=======
+Route::get('/','FirstController@index');
+Route::get('/about','FirstController@about');
+Route::get('/article/{id}','FirstController@article')->where('id','[0-9]+');
+Route::get('/recette','FirstController@recette');
+>>>>>>> 31924ef2955dd4eea8c19f79eff8db577e97c224
