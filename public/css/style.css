@@ -195,5 +195,6 @@ h4 {
 }
 .container-comment p:nth-child(2) {
     font-size: 1.2vw;
+    width: 80%;
 }
 
