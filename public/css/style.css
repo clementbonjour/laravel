@@ -100,12 +100,12 @@ form {
 input {
     margin-bottom : 2%!important;
     border-radius : 100px;
-    border : #FF7654 3px solid;
+    border : #34d8a7 3px solid;
     padding : 15px 50px;
 }
 
 .submit {
-    background-color:  #FF7654;
+    background-color:  #34d8a7;
     color : white;
     width : 50%;
     margin-right: auto;
@@ -197,4 +197,18 @@ h4 {
     font-size: 1.2vw;
     width: 80%;
 }
+.container_recette a {
+    color: #34d8a7;
+    font-weight: bold;
+}
+.container_recette a:hover {
+    color: #34d8a7;
+}
 
+.container-recette a {
+    color: #34d8a7;
+    font-weight: bold;
+}
+.container-recette a:hover {
+    color: #34d8a7;
+}

@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="display_recette">
-<h1>Nos recette</h1>
+<h1>Nos recettes</h1>
 <div class="container_recette">
 
         @foreach($recette as $r)
