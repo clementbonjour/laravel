@@ -138,6 +138,7 @@ input {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
+    text-align: center !important;
 }
 .justify-content-center {
     width: 100vw;
@@ -211,4 +212,8 @@ h4 {
 }
 .container-recette a:hover {
     color: #34d8a7;
+}
+
+.abo {
+    text-align: center;
 }
