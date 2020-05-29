@@ -5,7 +5,7 @@
 <h1 class="title">Du producteur à votre assiette en 2 clic</h1>
 
 
-<h2>Nos recette</h2>
+<h2>Nos recettes</h2>
 <div class="container-recette">
         @foreach($recette as $r)
             <a href="/recette/{{$r->id}}" class="list-group list-group-recette" style="width:500px">
