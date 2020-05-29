@@ -16,7 +16,7 @@ class AbonnementController extends Controller
     {
         $abonnement = Abonnement::all()->where('idUser', $idUser);
         return view("Abonnement.abonnement", ["abonnement" => $abonnement]);
-    }    
+    }
 
 
     public function ajoutAbonnement(){
@@ -32,7 +32,8 @@ class AbonnementController extends Controller
 
         $abonnement->save();
 
-        return view('Abonnement.abonnement');
+        $abonnement = Abonnement::all()->where('idUser', $idUser);
+        return view("Abonnement.abonnement", ["abonnement" => $abonnement]);
     }
 
 
