@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.title {
+    background: red;
+    width: 100vw;
+    height: 70vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10vh;
+}
+.py-4 h2 {
+    width: 100vw;
+    text-align: center;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+    border: 1px solid white !important;
+}
+.list-group-item img {
+    border-radius: 30px;
+}
+.container-recette {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boutonretour {
+    background: #dedede;
+    border-radius: 100px !important;
+    padding: 10px 20px;
+    color: grey;
+}
+
+.img_recette {
+    width : 100%;
+    height : 40vh;
+}
+
+.img_recette_1 {
+    margin-top: -10%;
+    width : 100%;
+}
+
+.description {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.description h1 {
+    color : #34d8a7;
+}
+
+.text_description {
+    color : #FF7654;
+}
+
+.container_recette {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#img_recettes img {
+    width: 100%;
+    object-fit: cover;
+    height: 30vh;
+}
+
+.display_recette {
+    text-align: center;
+}
+
+.display_recette h1 {
+    margin-bottom: 2% ;
+}
+
+form {
+    display : flex;
+    flex-direction: column;
+    width : 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input {
+    margin-bottom : 2%!important;
+    border-radius : 100px;
+    border : #FF7654 3px solid;
+    padding : 15px 50px;
+}
+
+.submit {
+    background-color:  #FF7654;
+    color : white;
+    width : 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h1 {
+    margin-bottom: 2%;
+}
+
+.message {
+    height: 30vh;
+    border-radius: 50px;
+}
+
+.moncompte {
+    text-align: center;
+}
+
+.dropdown-item {
+    background-color: #34d8a7!important;
+    padding : 15px 30px!important;
+    border-radius: 50px!important;
+    color : white!important;
+    width : 15%!important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+.justify-content-center {
+    width: 100vw;
+}
+.form-group {
+    width: 100%;
+}
+
+.col-md-6 input{
+    background: #dedede;
+    border-radius: 100px !important;
+    border: 0;
+    width: 100%;
+}
+.container {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.btn-primary {
+    background-color: #34d8a7!important;
+    border-radius: 100px !important;
+    border: 0 !important;
+
+}
+.btn-link {
+    color: #34d8a7!important;
+}
+h4 {
+    margin-bottom: 1%;
+}
+
